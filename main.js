@@ -39,3 +39,11 @@ button.addEventListener("click", () =>{
     }
 });
 
+clearButton.addEventListener("click", () =>{
+   input.value="";
+   output.textContent="";
+   output.style.color="";
+   input.focus();
+});
+
+
